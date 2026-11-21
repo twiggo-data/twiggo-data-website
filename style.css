@@ -43,12 +43,14 @@ figcaption { font-weight: 700; margin-bottom: 1.25rem; color: var(--deep-purple)
 small { display: block; color: var(--muted-ink); margin-top: .2rem; font-size: .875rem; line-height: 1.4; }
 .paper { background: #fff; border-block: 1px solid var(--border); }
 .section { padding-block: clamp(3rem, 7vw, 6rem); }
-.services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2.5rem; }
+.services { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 2.5rem; }
 .services article { border-top: 1px solid var(--border); padding-top: 1rem; }
 h3 { font-size: 1.2rem; margin: 0; }
 .services p { color: var(--muted-ink); margin-bottom: 0; }
 .about { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 .about p:not(.eyebrow) { color: var(--muted-ink); margin: 0 0 1rem; }
+#training { border-bottom: 1px solid var(--border); }
+#training li { color: var(--muted-ink); line-height: 1.65; margin-bottom: .5rem; }
 .footer { border-top: 1px solid var(--border); }
 @media (max-width: 720px) {
   .hero, .services, .about { grid-template-columns: 1fr; }
